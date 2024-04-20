@@ -1,3 +1,7 @@
+#Aplicacion de los algoritmos de Porter y Lancaster a un texto en español
+#comparar las salidas y verificar si la salida es precisa
+#Aclarar que estos algoritmos fueron creadas para el manejo de lenguaje natural Ingles
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
