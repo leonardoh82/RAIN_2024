@@ -1,4 +1,3 @@
-import os
 from typing import Counter
 import re
 import nltk
@@ -35,7 +34,6 @@ frecuencia_tokens = Counter(tokens)
 frecuencia_tokens = dict(sorted(frecuencia_tokens.items(), key=lambda item: item[1], reverse=True))
 
 #tabular la salida
-#print("{:10}Término\t\t{:10d}Frecuencia")
 print('{0:10}                  {1:10}'.format('Termino','Frecuencia'))
 print("______________________________________")
 for token, frecuencia in frecuencia_tokens.items():

@@ -1,0 +1,12 @@
+Based on historical behaviors, sequential recommendation endeavors to predict what a user
+prefers next. The recent efforts are mainly devoted to modeling the user’s interests evolution
+process or mining multi-interests for recommendation. However, it is largely overlooked that
+the interest trend (i.e., the evolution of the main interest) and the interest diversity (i.e., the
+scattered potential interests) could complement each other for better performance.
+Specifically, the interest trend reveals the user’s basic interest and its evolution, which is
+satisfied by similarity recommendations. Nevertheless, interest diversity covers the various
+interests caused by some external environmental influence, e.g., fashion trends and
+advertisements, exploring users’ potential interests or interest diversity will facilitate the
+model for diversity and serendipity recommendation. In a way, these two factors have
+conflicting aims, we argue that they should be disentangled in modeling first and recombined
+when making personalized recommendation.
